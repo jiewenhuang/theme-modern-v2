@@ -9,10 +9,11 @@
 - 使用 [Vite](https://vitejs.dev/) 进行静态资源构建。
 - 使用 [Tailwind CSS](https://tailwindcss.com/) 进行样式开发。
 - 使用 [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) 作为内容样式。
-- 使用 [Iconify](https://iconify.design/) + [@iconify/tailwind](https://iconify.design/docs/usage/css/tailwind/#installation) 作为图标方案。
+- 使用 [Iconify](https://iconify.design/) + [@iconify/tailwind](https://iconify.design/docs/usage/css/tailwind/#installation) 作为图标方案。  
 ~~集成了 [Alpine.js](https://alpinejs.dev/)。~~(此项选填)
 - 集成了 [Preact](https://preactjs.com/)。
 - 集成了 ESLint + Prettier。
+- 集成了 [shadcn/ui](https://ui.shadcn.com/)组件库(可能会有未知BUG)。
 
 ## 开发
 
