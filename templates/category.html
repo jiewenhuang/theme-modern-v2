@@ -1,0 +1,12 @@
+<!doctype html>
+<html
+  xmlns:th="https://www.thymeleaf.org"
+  th:replace="~{modules/layout :: html(title = ${category.spec.displayName+' - '+site.title}, hero = null, content = ~{::content}, head = null, footer = null, pageType = null, sidebar = null, contentClass = null)}"
+>
+  <th:block th:fragment="content">
+    <div
+      class="mx-auto flex h-screen w-full flex-col items-center"
+      id="app"
+    ></div>
+  </th:block>
+</html>
