@@ -1,5 +1,5 @@
 import "./style/tailwindcss.scss";
-import "./preact/main.tsx";
+import "./preact/app.tsx";
 type ColorSchemeType = "system" | "dark" | "light";
 
 export let currentColorScheme: ColorSchemeType = "system";

@@ -17,11 +17,10 @@
     <th:block th:unless="${theme.config.development.enabled}">
       <link rel="stylesheet" th:href="@{/assets/dist/main.css?v={version}(version=${theme.spec.version})}" />
       <link rel="manifest" th:href="@{/assets/dist/.vite/manifest.json}" />
-      <script type="module" th:src="@{/assets/dist/main.js?v={version}(version=${theme.spec.version})}"></script>
+      <script type="module" th:src="@{/assets/dist/prerender.js?v={version}(version=${theme.spec.version})}"></script>
     </th:block>
   </head>
   <body>
     <th:block th:replace="${content}" />
-
   </body>
 </html>

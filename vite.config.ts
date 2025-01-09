@@ -6,7 +6,6 @@ import { fileURLToPath } from "url";
 // https://vite.dev/config/
 
 export default ({ mode }: { mode: string }) => {
-
   const isProduction = mode === "production";
 
   return defineConfig({
@@ -22,6 +21,7 @@ export default ({ mode }: { mode: string }) => {
       },
     },
     build: {
+      sourcemap: true,
       manifest: isProduction,
       minify: isProduction,
       rollupOptions: {
