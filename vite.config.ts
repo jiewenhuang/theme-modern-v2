@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
+import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -14,7 +15,7 @@ export default ({ mode }: { mode: string }) => {
     define: {
       "process.env": process.env,
     },
-    plugins: [preact()],
+    plugins: [preact(), tailwindcss()],
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),

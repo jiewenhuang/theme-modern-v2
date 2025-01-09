@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@iconify/tailwind4";
+@plugin "daisyui";
+
+@plugin "tailwindcss-animate";
+
+@variant dark (&:where(.dark, .dark *));

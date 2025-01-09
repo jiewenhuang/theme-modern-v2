@@ -1,5 +1,4 @@
 import { render } from "preact";
-import "./index.scss";
 
 import { Layout } from "@/preact/layout";
 

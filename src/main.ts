@@ -1,4 +1,4 @@
-import "./style/tailwindcss.scss";
+import "./style/app.css";
 import "./preact/app.tsx";
 type ColorSchemeType = "system" | "dark" | "light";
 
