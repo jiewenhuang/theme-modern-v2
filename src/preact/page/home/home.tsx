@@ -61,6 +61,7 @@ const Home = () => {
           className="btn btn-soft btn-secondary mx-auto w-auto"
           onClick={() => navigateToPost(postList?.items[0].spec?.slug as string)}
         >
+          <span className="icon-[noto-v1--postbox] !size-8"></span>
           Go To Post: {postList?.items[0].spec?.title}
         </button>
 
