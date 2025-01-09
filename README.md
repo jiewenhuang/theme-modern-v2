@@ -6,14 +6,14 @@
 
 ## 特性
 
-- 使用 [Vite](https://vitejs.dev/) 进行静态资源构建。
-- 使用 [Tailwind CSS](https://tailwindcss.com/) 进行样式开发。
+- 使用 [Vite 6](https://vitejs.dev/) 进行静态资源构建。
+- 使用 [Tailwind CSS v4](https://tailwindcss.com/) 进行样式开发。
 - 使用 [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) 作为内容样式。
 - 使用 [Iconify](https://iconify.design/) + [@iconify/tailwind](https://iconify.design/docs/usage/css/tailwind/#installation) 作为图标方案。  
-~~集成了 [Alpine.js](https://alpinejs.dev/)。~~(此项选填)
+  ~~集成了 [Alpine.js](https://alpinejs.dev/)。~~(此项选填)
 - 集成了 [Preact](https://preactjs.com/)。
 - 集成了 ESLint + Prettier。
-- 集成了 [shadcn/ui](https://ui.shadcn.com/)组件库(可能会有未知BUG)。
+- 集成了 [daisyui v5](https://v5.daisyui.com/)一个Tailwindcss组件库。
 
 ## 开发
 
@@ -32,9 +32,12 @@ bun install
 ```bash
 bun run dev
 ```
+
 ```bash
 bun run build
 ```
+
 ### 注
+
 - 本项目使用了`bun`作为脚手架工具，你可以在[这里](https://bun.sh/)查看更多关于`bun`的信息。
 - 本地开发可以记得设置开启开发者模式。
