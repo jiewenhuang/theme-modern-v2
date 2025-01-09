@@ -10,10 +10,11 @@
 - 使用 [Tailwind CSS v4](https://tailwindcss.com/) 进行样式开发。
 - 使用 [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) 作为内容样式。
 - 使用 [Iconify](https://iconify.design/) + [@iconify/tailwind](https://iconify.design/docs/usage/css/tailwind/#installation) 作为图标方案。  
-  ~~集成了 [Alpine.js](https://alpinejs.dev/)。~~(此项选填)
+  ~~集成了 [Alpine.js](https://alpinejs.dev/)。~~(此项可选)
 - 集成了 [Preact](https://preactjs.com/)。
 - 集成了 ESLint + Prettier。
-- 集成了 [daisyui v5](https://v5.daisyui.com/)一个Tailwindcss组件库。
+- 集成了 [daisyui v5](https://v5.daisyui.com/) 一个Tailwindcss组件库。
+- 集成了 [@halo-dev/api-client](https://docs.halo.run/developer-guide/restful-api/api-client) 用于简化在 Halo 内部、插件的 UI 中、外部应用程序中请求 Halo 接口的逻辑。
 
 ## 开发
 

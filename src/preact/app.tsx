@@ -1,17 +1,15 @@
 import { render } from "preact";
 
 import { Layout } from "@/preact/layout";
+//可用
+// import { Suspense, lazy } from "preact/compat";
 
-import { Suspense, lazy } from "preact/compat";
-
-const AppRouter = lazy(() => import("@/preact/router/index.tsx"));
+import AppRouter from "@/preact/router";
 
 const App = () => {
   return (
     <Layout>
-      <Suspense fallback={<div>Loading...</div>}>
-        <AppRouter />
-      </Suspense>
+      <AppRouter />
     </Layout>
   );
 };
