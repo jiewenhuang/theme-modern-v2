@@ -22,7 +22,6 @@ export default ({ mode }: { mode: string }) => {
       },
     },
     build: {
-      sourcemap: true,
       manifest: isProduction,
       minify: isProduction,
       rollupOptions: {
